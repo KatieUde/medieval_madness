@@ -1,0 +1,269 @@
+$wrapper-width: 90%;
+$border: 4px solid white;
+$intro_font: 'MedievalSharp', cursive;
+
+body {
+  background: black;
+}
+
+#wrapper {
+  width: $wrapper-width;
+  height: 600px;
+  position: relative;
+  // background-image: url(http://imgur.com/rgBCXTH);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#welcome {
+  width: 80%;
+  height: 120px;
+  margin-left: 15%;
+}
+
+h1 {
+  color: rgb(77, 27, 218);
+  font-size: 50px;
+  text-align: center;
+  font-family: $intro_font;
+}
+
+#main {
+  width: 80%;
+  height: 400px;
+  border: $border;
+  border-radius: 30px;
+  float: left;
+  text-align: center;
+  display: inline-block;
+  margin-left: 15%;
+  position: absolute;
+}
+button {
+  background: rgb(77, 27, 218);
+  margin: 0 auto;
+  border-radius: 30px;
+}
+p {
+  font-family: $intro_font;
+  color: white;
+  text-align: center;
+  margin-bottom: 80px;
+  margin-top: 50px;
+  margin-right: 8%;
+  margin-left: 8%;
+}
+
+footer {
+  width: 40%;
+  height: 120px;
+  margin-top: 22em;
+  margin-left: 20%;
+  background: rgba(204, 130, 55, 0.92);
+  border-radius: 20px;
+  position: relative;
+  font-family: $intro_font;
+  text-indent: 20px;
+}
+
+.items {
+  display: inline-block;
+
+}
+
+#square {
+  margin-top: 80px;
+  margin-left: 32%;
+  margin-right: 18px;
+  background: url(http://i.imgur.com/UJ44Ovy.png) no-repeat;
+  background-size: contain;
+  display: inline-block;
+  height: 3em;
+  width: 3em;
+  float: left;
+  text-align: center;
+}
+#circle{
+  margin-right: 40px;
+  background: url(http://i.imgur.com/ywp61A3.png) no-repeat;
+  background-size: contain;
+  display: inline-block;
+  height: 3em;
+  width: 3em;
+  float: left;
+  text-align: center;
+}
+#diamond{
+  margin-bottom: 60px;
+  margin-right: 20px;
+  margin-top: -46px;
+  background: url(http://i.imgur.com/DkmNkrU.gif) no-repeat;
+  background-size: contain;
+  display: inline-block;
+  height: 3em;
+  width: 3em;
+  float: left;
+}
+#heart{
+  margin-right: 26px;
+  background: url(http://i.imgur.com/7uFFUgJ.png) no-repeat;
+  background-size: contain;
+  display: inline-block;
+  height: 3em;
+  width: 3em;
+  float: left;
+}
+#clover{
+  margin-top: 80px;
+  margin-right: 26px;
+  background: url(http://i.imgur.com/UmXMO9T.png) no-repeat;
+  background-size: contain;
+  display: inline-block;
+  height: 3em;
+  width: 3em;
+  float: left;
+}
+#fleur{
+  margin-right: 20px;
+  margin-top: -46px;
+  background: url(http://i.imgur.com/jmGoora.png) no-repeat;
+  background-size: contain;
+  display: inline-block;
+  height: 3em;
+  width: 3em;
+  float: left;
+}
+button:hover, #circle:hover, #square:hover, #heart:hover, #diamond:hover, #fleur:hover, #clover:hover, #hidden_chalice:hover, #hidden_jester:hover, #hidden_shield:hover, #hidden_dragon:hover, #hidden_sword:hover, #hidden_key:hover, #hidden_fork:hover, #hidden_books:hover, #hidden_feather:hover, #hidden_crystal:hover, #hidden_cauldron:hover, #hidden_wand:hover, #hidden_star:hover{
+  cursor: pointer;
+}
+
+#hidden_chalice{
+  background: url(http://i.imgur.com/5JnZu7A.png) no-repeat;
+  background-size: contain;
+  position: absolute;
+  height: 3em;
+  width: 3em;
+  right: 12em;
+  top: 19em;
+  z-index: +1;
+}
+#hidden_jester{
+  background: url(http://i.imgur.com/2qX5Aoq.png) no-repeat;
+  background-size: contain;
+  position: absolute;
+  height: 3em;
+  width: 3em;
+  left: 38em;
+  bottom: 12em;
+  opacity: 0.7;
+}
+#hidden_shield{
+  background: url(http://i.imgur.com/YfD6geK.png) no-repeat;
+  background-size: contain;
+  position: absolute;
+  height: 3em;
+  width: 3em;
+  right: 28em;
+  bottom: 19em;
+  z-index: 50;
+}
+#hidden_dragon{
+  background: url(http://i.imgur.com/tFjqPwy.png) no-repeat;
+  background-size: contain;
+  position: absolute;
+  height: 4em;
+  width: 4em;
+  left: 21em;
+  bottom: 11em;
+}
+#hidden_sword{
+  background: url(http://i.imgur.com/oermHDX.png) no-repeat;
+  background-size: contain;
+  position: absolute;
+  height: 3em;
+  width: 3em;
+  top: 2em;
+  left: 30em;
+  opacity: 0.6;
+}
+#hidden_key{
+  background: url(http://i.imgur.com/bVL2JFu.png) no-repeat;
+  background-size: contain;
+  position: absolute;
+  height: 3em;
+  width: 3em;
+  right: 10em;
+  bottom: 1em;
+  opacity: 0.5;
+}
+#hidden_fork{
+  background: url(http://i.imgur.com/2W1KcJz.png) no-repeat;
+  background-size: contain;
+  position: absolute;
+  height: 3em;
+  width: 3em;
+  left: 32em;
+  opacity: 0.7;
+}
+#hidden_books{
+  background: url(http://i.imgur.com/afupBH5.png) no-repeat;
+  background-size: contain;
+  position: absolute;
+  height: 3em;
+  width: 3em;
+  right: 19em;
+  bottom: 11em;
+  opacity: 0.7;
+}
+#hidden_feather {
+  background: url(http://i.imgur.com/IvPJl6E.png) no-repeat;
+  background-size: contain;
+  position: absolute;
+  height: 3em;
+  width: 3em;
+  left: 6em;
+  bottom: 7em;
+  opacity: 0.5;
+}
+#hidden_crystal{
+  background: url(http://i.imgur.com/nlF7snYs.jpg) no-repeat;
+  background-size: contain;
+  border-radius: 30px;
+  opacity: 0.6;
+  bottom: 21em;
+  left: 23em;
+  position: absolute;
+  height: 3em;
+  width: 3em;
+}
+#hidden_cauldron{
+  background: url(http://i.imgur.com/LwphDw5b.jpg) no-repeat;
+  background-size: contain;
+  position: absolute;
+  height: 4em;
+  width: 4em;
+  opacity: 0.7;
+  left: 28em;
+  bottom: 11em;
+  border-radius: 10px;
+}
+#hidden_wand{
+  background: url(http://i.imgur.com/PY7Jcaa.png) no-repeat;
+  background-size: contain;
+  position: absolute;
+  height: 3em;
+  width: 3em;
+  right: 11em;
+}
+#hidden_star{
+  background: url(http://i.imgur.com/zvGXgmUs.jpg) no-repeat;
+  background-size: contain;
+  border-radius: 30px;
+  left: 17em;
+  bottom: 23em;
+  position: absolute;
+  opacity: 0.4;
+  height: 3em;
+  width: 3em;
+}
